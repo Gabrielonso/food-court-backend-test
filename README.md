@@ -171,8 +171,8 @@ To efficiently handle **proximity-based rider assignment**, especially when scal
 ## 👨‍💻 Author
 
 **Gabriel Nonso** — Full Stack Engineer  
-GitHub: [@GabrielNonso](https://github.com/Gabrielonso)  
-LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/gabriel-nonso-onyeaka/)
+GitHub: [@Gabriel Nonso](https://github.com/Gabrielonso)  
+LinkedIn: [linkedin.com/in/gabriel-nonso-onyeaka](https://www.linkedin.com/in/gabriel-nonso-onyeaka/)
 
 ---
 
