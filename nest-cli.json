@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/api-gateway/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/api-gateway/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/api-gateway",
+  "projects": {
+    "api-gateway": {
+      "type": "application",
+      "root": "apps/api-gateway",
+      "entryFile": "main",
+      "sourceRoot": "apps/api-gateway/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/api-gateway/tsconfig.app.json"
+      }
+    },
+    "order-management": {
+      "type": "application",
+      "root": "apps/order-management",
+      "entryFile": "main",
+      "sourceRoot": "apps/order-management/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/order-management/tsconfig.app.json"
+      }
+    },
+    "rider-management": {
+      "type": "application",
+      "root": "apps/rider-management",
+      "entryFile": "main",
+      "sourceRoot": "apps/rider-management/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rider-management/tsconfig.app.json"
+      }
+    },
+    "shared": {
+      "type": "library",
+      "root": "libs/shared",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/tsconfig.lib.json"
+      }
+    }
+  }
+}

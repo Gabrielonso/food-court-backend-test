@@ -1,0 +1,1 @@
+export const RIDER_SERVICE = 'RIDER_SERVICE';
